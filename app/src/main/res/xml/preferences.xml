@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Aparência">
+		<ListPreference
+			android:defaultValue="follow_system"
+			android:entries="@array/app_theme_entries"
+			android:entryValues="@array/app_theme_values"
+			android:key="appTheme"
+			android:summary="Alterne entre os temas claro e escuro"
+			android:title="Tema" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Rede">
+		<EditTextPreference
+			android:title="URL de acesso"
+			android:summary="Configure uma URL de acesso alternativa para acessar a API do Ubook"
+			android:key="backendBaseUrl"
+			android:defaultValue="https://www.ubook.com" >
+		</EditTextPreference>
+	</PreferenceCategory>
+</PreferenceScreen>
