@@ -1,3 +1,0 @@
-[submodule "app/src/main/jni/libbearssl"]
-	path = app/src/main/jni/libbearssl
-	url = https://www.bearssl.org/git/BearSSL
